@@ -1,4 +1,5 @@
 const phoneBook = {};
+const hello = 'hello'
 function addPhone(nameUser, phoneUser, dateUser) {
   const has = phoneBook.hasOwnProperty;
   if (has.call(phoneBook, nameUser) === true) {
